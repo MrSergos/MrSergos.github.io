@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waxom</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/870247a705.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="wrapper header_wrapper">
+            <div class="burger">
+                <div class="menu-toggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul class="burger-menu-elem">
+                        <a href="index.html" class="burger_link">Home</a>
+                        <a href="#" class="burger_link">About us</a>
+                        <a href="#" class="burger_link">Portfolio</a>
+                        <a href="#" class="burger_link">Features</a>
+                        <a href="#" class="burger_link">Blog</a>
+                        <a href="#" class="burger_link">Pricing</a>
+                        <a href="#" class="burger_link">Shortcodes</a>
+                        <a href="#" class="burger_link">Contact</a>
+                        <a href="#" class="burger_link bascket"><svg class="bascket_img"
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="24" viewBox="0 0 18 24">
+                                <path
+                                    d="M15 3H13.5C13.5 1.34 11.48 0 9 0C6.51 0 4.5 1.34 4.5 3H3C1.35 3 0 4.34 0 6V21C0 22.65 1.35 23.99 3 23.99H15C16.65 23.99 17.99 22.65 17.99 21V6C17.99 4.34 16.65 3 15 3ZM9 1.5C10.66 1.5 12 1.96 12 3H6C6 1.96 7.34 1.5 9 1.5ZM16.49 21C16.49 21.82 15.82 22.49 15 22.49H3C2.17 22.49 1.5 21.82 1.5 21V19.5H16.49V21ZM16.49 18H1.5V6C1.5 5.17 2.17 4.5 3 4.5H4.5V9H6V4.5H12V9H13.5V4.5H15C15.82 4.5 16.49 5.17 16.49 6V18Z" />
+                            </svg>
+
+                        </a>
+                        <a href="#" class="burger_link search"> <svg class="search_img"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.76 22.68L17.57 16.59C19.19 14.82 20.19 12.49 20.19 9.93C20.19 4.44 15.67 0 10.09 0C4.52 0 0 4.44 0 9.93C0 15.42 4.52 19.86 10.09 19.86C12.5 19.86 14.71 19.03 16.45 17.64L22.66 23.76C22.97 24.06 23.46 24.06 23.76 23.76C24.06 23.46 24.06 22.98 23.76 22.68ZM10.09 18.33C5.38 18.33 1.55 14.57 1.55 9.93C1.55 5.29 5.38 1.52 10.09 1.52C14.81 1.52 18.63 5.29 18.63 9.93C18.63 14.57 14.81 18.33 10.09 18.33Z" />
+                            </svg></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="header_top">
+                <div class="logo">
+                    <a href="index.html"><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="63" height="55"
+                            viewBox="0 0 63 55">
+                            <path
+                                d="M36.7508 10.6928H26.2492L31.495 19.8594L36.7508 10.6928ZM24.9402 11.4608L19.6844 20.6275H30.186L24.9402 11.4608ZM43.3156 20.6275L38.0598 11.4608L32.814 20.6275H43.3156ZM32.814 22.1536L38.0598 31.3203L43.3156 22.1536H32.814ZM19.6844 22.1536L24.9402 31.3203L30.186 22.1536H19.6844ZM13.1196 32.0783H23.6213L18.3754 22.9217L13.1196 32.0783ZM49.8704 32.0783L44.6246 22.9217L39.3787 32.0783H49.8704ZM31.495 0L26.2492 9.16667H36.7508L31.495 0ZM44.6246 42.7711L49.8704 33.6144H39.3787L44.6246 42.7711ZM18.3754 42.7711L23.6213 33.6144H13.1196L18.3754 42.7711ZM6.56479 43.5392H17.0565L11.8106 34.3725L6.56479 43.5392ZM56.4352 43.5392L51.1894 34.3725L45.9335 43.5392H56.4352ZM45.9335 45.0653L51.1894 54.232L56.4352 45.0653H45.9335ZM32.814 45.0653L38.0598 54.232L43.3156 45.0653H32.814ZM11.8106 54.232L17.0565 45.0653H6.56479L11.8106 54.232ZM0 55H10.5017L5.24584 45.8333L0 55ZM26.2492 55H36.7508L31.495 45.8333L26.2492 55ZM39.3787 55H49.8704L44.6246 45.8333L39.3787 55ZM57.7542 45.8333L52.4983 55H63L57.7542 45.8333Z" />
+                        </svg></a>
+                    <a class="logo_text" href="index.html">Waxom</a>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav_link">Home</a>
+                    <a href="#" class="nav_link">About us</a>
+                    <a href="#" class="nav_link">Portfolio</a>
+                    <a href="#" class="nav_link">Features</a>
+                    <a href="#" class="nav_link">Blog</a>
+                    <a href="#" class="nav_link">Pricing</a>
+                    <a href="#" class="nav_link">Shortcodes</a>
+                    <a href="#" class="nav_link">Contact</a>
+                    <a href="#" class="nav_link bascket"><svg class="bascket_img" xmlns="http://www.w3.org/2000/svg"
+                            width="18" height="24" viewBox="0 0 18 24">
+                            <path
+                                d="M15 3H13.5C13.5 1.34 11.48 0 9 0C6.51 0 4.5 1.34 4.5 3H3C1.35 3 0 4.34 0 6V21C0 22.65 1.35 23.99 3 23.99H15C16.65 23.99 17.99 22.65 17.99 21V6C17.99 4.34 16.65 3 15 3ZM9 1.5C10.66 1.5 12 1.96 12 3H6C6 1.96 7.34 1.5 9 1.5ZM16.49 21C16.49 21.82 15.82 22.49 15 22.49H3C2.17 22.49 1.5 21.82 1.5 21V19.5H16.49V21ZM16.49 18H1.5V6C1.5 5.17 2.17 4.5 3 4.5H4.5V9H6V4.5H12V9H13.5V4.5H15C15.82 4.5 16.49 5.17 16.49 6V18Z" />
+                        </svg>
+
+                    </a>
+                    <a href="#" class="nav_link search"> <svg class="search_img" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M23.76 22.68L17.57 16.59C19.19 14.82 20.19 12.49 20.19 9.93C20.19 4.44 15.67 0 10.09 0C4.52 0 0 4.44 0 9.93C0 15.42 4.52 19.86 10.09 19.86C12.5 19.86 14.71 19.03 16.45 17.64L22.66 23.76C22.97 24.06 23.46 24.06 23.76 23.76C24.06 23.46 24.06 22.98 23.76 22.68ZM10.09 18.33C5.38 18.33 1.55 14.57 1.55 9.93C1.55 5.29 5.38 1.52 10.09 1.52C14.81 1.52 18.63 5.29 18.63 9.93C18.63 14.57 14.81 18.33 10.09 18.33Z" />
+                        </svg></a>
+                </nav>
+            </div>
+            <div class="header_bottom">
+                <h2 class="header_title">Unique and Modern Design</h2>
+                <h1 class="headerline">Portfolio PSD Template</h1>
+                <p class="header_text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming
+                    id quod mazim placerat facer possim assum.</p>
+                <a class="header_button" href="#">Get Started</a>
+                <div class="header_button_pagination">
+                    <button class="header_btn_pag"></button>
+                    <button class="header_btn_pag"></button>
+                    <button class="header_btn_pag"></button>
+                    <button class="header_btn_pag"></button>
+                    <button class="header_btn_pag"></button>
+                </div>
+
+            </div>
+        </div>
+        <button class="header_slider slider_l"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="73"
+                viewBox="0 0 40 73">
+                <path opacity="0.502"
+                    d="M38.03 72.98L0 36.5L38.03 0.0200195L40 2.02002L4.07 36.5L40 70.98L38.03 72.98Z" />
+            </svg></i></button>
+        <button class="header_slider slider_r"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="73"
+                viewBox="0 0 40 73">
+                <path d="M1.97 72.96L40 36.48L1.97 0L0 2L35.93 36.48L0 70.96L1.97 72.96Z" />
+            </svg></button>
+
+    </header>
+    <main class="main">
+        <section class="services">
+            <div class="wrapper services_wrapper">
+                <div class="service">
+                    <svg class="services_img s_pencil" xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                        viewBox="0 0 48 48">
+                        <path
+                            d="M46.6971 17.1134C46.08 16.5061 45.1004 16.5061 44.4931 17.1134L30.9257 30.671L11.8629 39.0759L8.92408 36.1371L17.3192 17.0644L30.8865 3.50688C31.4939 2.88974 31.4939 1.91015 30.8865 1.3028C30.2694 0.695453 29.2898 0.695453 28.6824 1.3028L14.7037 15.2718L0.519184 47.471L32.7184 33.2963L46.6971 19.3175C47.3045 18.7101 47.3045 17.7208 46.6971 17.1134ZM26.9388 27.8889C27.2424 28.1828 27.6343 28.3395 28.0359 28.3395C28.4375 28.3395 28.8294 28.1828 29.1429 27.8889L42.2008 14.8212C42.8082 14.2138 42.8082 13.2342 42.2008 12.6171C41.5837 12.0097 40.6041 12.0097 39.9967 12.6171L26.9388 25.6848C26.3314 26.2922 26.3314 27.2718 26.9388 27.8889ZM23.5298 24.4799C23.8335 24.7738 24.2253 24.9306 24.6269 24.9306C25.0286 24.9306 25.4204 24.7738 25.7241 24.4799L38.7918 11.4122C39.3992 10.8048 39.3992 9.81545 38.7918 9.20811C38.1747 8.60076 37.1951 8.60076 36.5877 9.20811L23.5298 22.2661C22.9127 22.8734 22.9127 23.8628 23.5298 24.4799ZM20.111 21.0612C20.4147 21.3648 20.8163 21.5216 21.218 21.5216C21.6196 21.5216 22.0114 21.3648 22.3151 21.0612L35.3829 8.00321C35.9902 7.39586 35.9902 6.40647 35.3829 5.79913C34.7755 5.19178 33.7861 5.19178 33.1788 5.79913L20.111 18.8571C19.5037 19.4644 19.5037 20.4538 20.111 21.0612Z" />
+                    </svg>
+                    <h2 class="services_heading">Web & App Design</h2>
+                    <p class="services_text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim.</p>
+                    <hr class="service_hr">
+                </div>
+                <div class="service">
+                    <svg class="services_img s_paper" xmlns="http://www.w3.org/2000/svg" width="44" height="40"
+                        viewBox="0 0 44 40">
+                        <path
+                            d="M21.85 0.109985L0.410004 11.67L21.85 23.23L43.29 11.67L21.85 0.109985ZM21.85 26.96L4.4 17.55L0.410004 19.7L21.85 31.25L43.29 19.7L39.3 17.55L21.85 26.96ZM21.85 34.98L4.4 25.57L0.410004 27.72L21.85 39.28L43.29 27.72L39.3 25.57L21.85 34.98Z" />
+                    </svg>
+                    <h2 class="services_heading">Development</h2>
+                    <p class="services_text services_media">Nam liber tempor cum soluta nobis eleifend option congue
+                        nihil imperdiet
+                        doming id quod mazim.</p>
+                    <hr class="service_hr">
+                </div>
+                <div class="service">
+                    <svg class="services_img s_gear" xmlns="http://www.w3.org/2000/svg" width="44" height="44"
+                        viewBox="0 0 44 44">
+                        <path
+                            d="M43.93 21.8499C43.93 20.2299 42.76 18.4999 41.32 17.9899C39.88 17.4799 38.49 16.2399 38.08 15.2499C37.68 14.2699 37.78 12.3999 38.44 11.0199C39.09 9.63995 38.69 7.58995 37.55 6.43995C36.4 5.29995 34.36 4.89995 32.98 5.55995C31.6 6.20995 29.73 6.31995 28.75 5.90995C27.76 5.50995 26.52 4.10995 26.01 2.66995C25.49 1.22995 23.76 0.0699463 22.14 0.0699463C20.52 0.0699463 18.79 1.22995 18.28 2.66995C17.77 4.10995 16.52 5.50995 15.54 5.90995C14.56 6.31995 12.69 6.20995 11.31 5.55995C9.92999 4.89995 7.87998 5.29995 6.73998 6.43995C5.58998 7.58995 5.18999 9.63995 5.84999 11.0199C6.50998 12.3999 6.60998 14.2699 6.19999 15.2499C5.79998 16.2299 4.40999 17.4799 2.96999 17.9899C1.52999 18.4999 0.359985 20.2299 0.359985 21.8499C0.359985 23.4699 1.52999 25.1999 2.96999 25.7099C4.40999 26.2199 5.79999 27.4699 6.20999 28.4499C6.60999 29.4299 6.50998 31.2999 5.84999 32.6799C5.18999 34.0599 5.58998 36.1099 6.73998 37.2599C7.87998 38.3999 9.92999 38.7999 11.31 38.1399C12.69 37.4899 14.56 37.3799 15.54 37.7899C16.52 38.1999 17.77 39.5899 18.28 41.0299C18.79 42.4699 20.52 43.6299 22.14 43.6299C23.76 43.6299 25.49 42.4699 26.01 41.0299C26.52 39.5899 27.76 38.1999 28.74 37.7899C29.73 37.3799 31.6 37.4899 32.98 38.1399C34.36 38.7999 36.4 38.3999 37.55 37.2599C38.69 36.1099 39.09 34.0599 38.44 32.6799C37.78 31.2999 37.67 29.4299 38.08 28.4499C38.48 27.4699 39.88 26.2199 41.32 25.7099C42.76 25.1999 43.93 23.4699 43.93 21.8499ZM22.14 29.8399C17.72 29.8399 14.15 26.2699 14.15 21.8599C14.15 17.4399 17.72 13.8699 22.14 13.8699C26.55 13.8699 30.13 17.4399 30.13 21.8599C30.13 26.2699 26.55 29.8399 22.14 29.8399Z" />
+                    </svg>
+                    <h2 class="services_heading">Customization</h2>
+                    <p class="services_text services_media">Nam liber tempor cum soluta nobis eleifend option congue
+                        nihil imperdiet
+                        doming id quod mazim.</p>
+                    <hr class="service_hr">
+                </div>
+                <div class="service">
+                    <svg class="services_img s_bag" xmlns="http://www.w3.org/2000/svg" width="52" height="36"
+                        viewBox="0 0 52 36">
+                        <path
+                            d="M8.99999 13.25C9.99999 11.19 12.47 9.63996 14.74 9.63996H40.95V7.97996C40.95 6.61996 39.84 5.49996 38.49 5.49996H27.67V4.05996C27.67 1.99996 26.02 0.329956 23.99 0.329956H17.7C16.72 0.329956 15.79 0.719956 15.09 1.42996C14.39 2.12996 14.01 3.05996 14.01 4.05996V5.49996H3.19999C1.83999 5.49996 0.73999 6.61996 0.73999 7.97996V30.15L8.99999 13.25ZM16.47 4.05996C16.47 3.72996 16.6 3.41996 16.83 3.17996C17.06 2.93996 17.37 2.81996 17.7 2.81996H23.99C24.67 2.81996 25.22 3.36996 25.22 4.05996V5.49996H16.47V4.05996ZM41.92 33.76C41.33 34.98 39.73 35.98 38.38 35.98H3.07999C1.72999 35.98 1.10999 34.98 1.70999 33.76L11.2 14.34C11.8 13.12 13.39 12.12 14.74 12.12H50.04C51.39 12.12 52.01 13.12 51.41 14.34L41.92 33.76Z" />
+                    </svg>
+                    <h2 class="services_heading">Marketing</h2>
+                    <p class="services_text services_media">Nam liber tempor cum soluta nobis eleifend option congue
+                        nihil imperdiet
+                        doming id quod mazim.</p>
+                    <hr class="service_hr">
+                </div>
+            </div>
+        </section>
+        <section class="w_realisation">
+            <div class="wrapper w_realisation_wrapper">
+                <div class="w_realisation_description">
+                    <h2 class="w_real_heading">Waxom is Realization of your Ideas.</h2>
+                    <p class="w_real_text">Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                        saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                </div>
+                <div class="w_real_browser_imgs">
+                    <img src="img/w_real_browser_left_10769.png" alt="left_img" class="w_real_img browser_img_left"
+                        width="770" height="400">
+
+                    <img src="img/w_real_browser_right_10770.png" alt="right_img" class="w_real_img browser_img_right"
+                        width="770" height="400">
+
+                    <img src="img/w_real_browser_center.png" alt="center_img" class="w_real_img browser_img_center"
+                        width="770" height="482">
+
+                </div>
+            </div>
+
+        </section>
+        <section class="perchase_now">
+            <div class="wrapper perchase_now_wrapper">
+                <div class="per_now">
+                    <h3 class="per_now_heading">Waxom Multipurpose WordPress Theme</h3>
+                    <p class="per_now_text">Don't Forget to Rate the Template. Thanks so much!</p>
+                </div>
+                <a class="per_now_link" href="#">Purchase Now</a>
+            </div>
+        </section>
+        <section class="o_l_projects">
+            <div class="wrapper o_l_project_wrapper">
+                <div class="o_l_project_description">
+                    <h2 class="o_l_project_heading">Our Latest Projects.</h2>
+                    <p class="o_l_project_text">Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                        saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                </div>
+                <div class="o_l_project_buttons">
+                    <a href="#" class="o_l_project_btn">All</a>
+                    <a href="#" class="o_l_project_btn">Web Design</a>
+                    <a href="#" class="o_l_project_btn">Mobile App</a>
+                    <a href="#" class="o_l_project_btn">Illustration</a>
+                    <a href="#" class="o_l_project_btn">Photography</a>
+                </div>
+                <div class="projects">
+
+                    <div class="project">
+                        <img class="project_img" src="img/project_phone.png" alt="phone" width="370">
+                        <div class="project_descr">
+                            <h3 class="project_caption">Claritas Etiam Processus</h3>
+                            <p class="project_text">Photography, Nature</p>
+                        </div>
+                        <div class="overlay"><svg class="overlay_img" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.76 22.68L17.57 16.59C19.19 14.82 20.19 12.49 20.19 9.93C20.19 4.44 15.67 0 10.09 0C4.52 0 0 4.44 0 9.93C0 15.42 4.52 19.86 10.09 19.86C12.5 19.86 14.71 19.03 16.45 17.64L22.66 23.76C22.97 24.06 23.46 24.06 23.76 23.76C24.06 23.46 24.06 22.98 23.76 22.68ZM10.09 18.33C5.38 18.33 1.55 14.57 1.55 9.93C1.55 5.29 5.38 1.52 10.09 1.52C14.81 1.52 18.63 5.29 18.63 9.93C18.63 14.57 14.81 18.33 10.09 18.33Z" />
+                            </svg></div>
+                    </div>
+
+                    <div class="project">
+                        <img class="project_img" src="img/project_rock.png" alt="rocks" width="370">
+                        <div class="project_descr">
+                            <h3 class="project_caption">Quam Nutamus Farum</h3>
+                            <p class="project_text">Graphic Design, Mock-Up</p>
+                        </div>
+                        <div class="overlay"><svg class="overlay_img" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.76 22.68L17.57 16.59C19.19 14.82 20.19 12.49 20.19 9.93C20.19 4.44 15.67 0 10.09 0C4.52 0 0 4.44 0 9.93C0 15.42 4.52 19.86 10.09 19.86C12.5 19.86 14.71 19.03 16.45 17.64L22.66 23.76C22.97 24.06 23.46 24.06 23.76 23.76C24.06 23.46 24.06 22.98 23.76 22.68ZM10.09 18.33C5.38 18.33 1.55 14.57 1.55 9.93C1.55 5.29 5.38 1.52 10.09 1.52C14.81 1.52 18.63 5.29 18.63 9.93C18.63 14.57 14.81 18.33 10.09 18.33Z" />
+                            </svg></div>
+                    </div>
+
+                    <div class="project">
+                        <img class="project_img" src="img/project_pages.png" alt="pages" width="370">
+                        <div class="project_descr">
+                            <h3 class="project_caption">Usus Legentis Videntur</h3>
+                            <p class="project_text">Photography, Holiday</p>
+                        </div>
+                        <div class="overlay"><svg class="overlay_img" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.76 22.68L17.57 16.59C19.19 14.82 20.19 12.49 20.19 9.93C20.19 4.44 15.67 0 10.09 0C4.52 0 0 4.44 0 9.93C0 15.42 4.52 19.86 10.09 19.86C12.5 19.86 14.71 19.03 16.45 17.64L22.66 23.76C22.97 24.06 23.46 24.06 23.76 23.76C24.06 23.46 24.06 22.98 23.76 22.68ZM10.09 18.33C5.38 18.33 1.55 14.57 1.55 9.93C1.55 5.29 5.38 1.52 10.09 1.52C14.81 1.52 18.63 5.29 18.63 9.93C18.63 14.57 14.81 18.33 10.09 18.33Z" />
+                            </svg></div>
+                    </div>
+
+                    <div class="project">
+                        <img class="project_img" src="img/project_claritas.png" alt="bird_and_rock" width="370">
+                        <div class="project_descr">
+                            <h3 class="project_caption">Claritas Etiam Processus</h3>
+                            <p class="project_text">Photography, Nature</p>
+                        </div>
+                        <div class="overlay"><svg class="overlay_img" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.76 22.68L17.57 16.59C19.19 14.82 20.19 12.49 20.19 9.93C20.19 4.44 15.67 0 10.09 0C4.52 0 0 4.44 0 9.93C0 15.42 4.52 19.86 10.09 19.86C12.5 19.86 14.71 19.03 16.45 17.64L22.66 23.76C22.97 24.06 23.46 24.06 23.76 23.76C24.06 23.46 24.06 22.98 23.76 22.68ZM10.09 18.33C5.38 18.33 1.55 14.57 1.55 9.93C1.55 5.29 5.38 1.52 10.09 1.52C14.81 1.52 18.63 5.29 18.63 9.93C18.63 14.57 14.81 18.33 10.09 18.33Z" />
+                            </svg></div>
+                    </div>
+
+                    <div class="project">
+                        <img class="project_img" src="img/project_book.png" alt="open_book" width="370">
+                        <div class="project_descr">
+                            <h3 class="project_caption">Quam Nutamus Farum</h3>
+                            <p class="project_text">Graphic Design, Mock-Up</p>
+                        </div>
+                        <div class="overlay"><svg class="overlay_img" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.76 22.68L17.57 16.59C19.19 14.82 20.19 12.49 20.19 9.93C20.19 4.44 15.67 0 10.09 0C4.52 0 0 4.44 0 9.93C0 15.42 4.52 19.86 10.09 19.86C12.5 19.86 14.71 19.03 16.45 17.64L22.66 23.76C22.97 24.06 23.46 24.06 23.76 23.76C24.06 23.46 24.06 22.98 23.76 22.68ZM10.09 18.33C5.38 18.33 1.55 14.57 1.55 9.93C1.55 5.29 5.38 1.52 10.09 1.52C14.81 1.52 18.63 5.29 18.63 9.93C18.63 14.57 14.81 18.33 10.09 18.33Z" />
+                            </svg></div>
+                    </div>
+
+                    <div class="project">
+                        <img class="project_img" src="img/project_usus_legentis.png" alt="rock_and_sea" width="370">
+                        <div class="project_descr">
+                            <h3 class="project_caption">Usus Legentis Videntur</h3>
+                            <p class="project_text">Photography, Holiday</p>
+                        </div>
+                        <div class="overlay"><svg class="overlay_img" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.76 22.68L17.57 16.59C19.19 14.82 20.19 12.49 20.19 9.93C20.19 4.44 15.67 0 10.09 0C4.52 0 0 4.44 0 9.93C0 15.42 4.52 19.86 10.09 19.86C12.5 19.86 14.71 19.03 16.45 17.64L22.66 23.76C22.97 24.06 23.46 24.06 23.76 23.76C24.06 23.46 24.06 22.98 23.76 22.68ZM10.09 18.33C5.38 18.33 1.55 14.57 1.55 9.93C1.55 5.29 5.38 1.52 10.09 1.52C14.81 1.52 18.63 5.29 18.63 9.93C18.63 14.57 14.81 18.33 10.09 18.33Z" />
+                            </svg></div>
+                    </div>
+                </div>
+                <a href="#" class="project_btn">LOAD MORE</a>
+
+            </div>
+        </section>
+        <section class="video_presentation">
+            <div class="wrapper video_presentation_wrapper">
+                <a href="#" class="v_p_link"><svg class="video_presentation_img" xmlns="http://www.w3.org/2000/svg"
+                        width="70" height="70" viewBox="0 0 70 70">
+                        <path
+                            d="M29.93 51.8201C29.64 51.8201 29.34 51.7601 29.06 51.6301C28.34 51.2901 27.87 50.5601 27.87 49.7601V20.2401C27.87 19.4401 28.34 18.7101 29.06 18.3701C29.78 18.0301 30.64 18.1401 31.25 18.6501L48.97 33.4201C49.44 33.8101 49.71 34.3901 49.71 35.0001C49.71 35.6101 49.44 36.1901 48.97 36.5801L31.25 51.3401C30.88 51.6601 30.41 51.8201 29.93 51.8201ZM31.99 24.6301V45.3601L44.43 35.0001L31.99 24.6301ZM34.94 70.0001C29.07 70.0001 23.17 68.5401 17.83 65.5301C16.84 64.9701 16.49 63.7101 17.05 62.7201C17.6 61.7301 18.86 61.3801 19.85 61.9401C31.87 68.7001 47.08 66.6101 56.85 56.8501C68.89 44.8001 68.89 25.2001 56.85 13.1501C44.8 1.10012 25.2 1.10012 13.15 13.1501C1.09999 25.2001 1.09999 44.8001 13.15 56.8501C13.95 57.6501 13.95 58.9501 13.15 59.7601C12.35 60.5601 11.04 60.5601 10.24 59.7601C-3.42 46.1001 -3.42 23.8901 10.24 10.2401C23.89 -3.41988 46.1 -3.41988 59.76 10.2401C73.41 23.8901 73.41 46.1001 59.76 59.7601C53.03 66.4801 44.03 70.0001 34.94 70.0001Z" />
+                    </svg></a>
+                <div class="video_presentation_description">
+                    <h3 class="v_p_description_heading">Waxom Video Presentation</h3>
+                    <p class="v_p_description_text">Investigationes demonstraverunt lectores legere me lius quod ii
+                        legunt saepius, qui sequitur mutationem consuetudium.</p>
+                    <p class="v_p_description_text">03:26</p>
+                </div>
+            </div>
+        </section>
+        <section class="mobile_divices">
+            <div class="wrapper mob_dev_wrapper">
+                <img class="mob_dev_img" src="img/mob_dev_iphone.png" width="423" alt="iphone">
+                <div class="mob_dev_right_col">
+                    <h2 class="mob_dev_heading">Excellent for Mobile Devices.</h2>
+                    <p class="mob_dev_text">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                        lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores
+                        legere me
+                        lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari,
+                        fiant
+                        sollemnes in futurum.</p>
+                    <ul class="mob_dev_dignity">
+                        <li class="mob_dev_pluses">Nam liber tempor cum soluta nobis eleifend option;</li>
+                        <li class="mob_dev_pluses">Option congue nihil imperdiet doming id quod mazim placerat facer;
+                        </li>
+                        <li class="mob_dev_pluses">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+                        <li class="mob_dev_pluses">Investigationes demonstraverunt lectores</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="counters">
+            <div class="wrapper counters_wrapper">
+                <figure class="counter">
+                    <img class="counters_img" src="img/counters_person.svg" width="44" alt="person">
+                    <figcaption>
+                        <h3 class="counters_digits">3587</h3>
+                        <p class="counters_text">Satisfied Clients</p>
+                    </figcaption>
+                    <hr class="counters_br">
+                </figure>
+                <figure class="counter">
+                    <img class="counters_img" src="img/counters_coffee.svg" width="48" alt="coffee">
+                    <figcaption>
+                        <h3 class="counters_digits">207</h3>
+                        <p class="counters_text">Cups of coffee</p>
+                    </figcaption>
+                    <hr class="counters_br">
+                </figure>
+
+                <figure class="counter">
+                    <img class="counters_img" src="img/counters_message.svg" width="44" alt="message">
+                    <figcaption>
+                        <h3 class="counters_digits">2500</h3>
+                        <p class="counters_text">Blog posts</p>
+                    </figcaption>
+                    <hr class="counters_br">
+                </figure>
+                <figure class="counter">
+                    <img class="counters_img" src="img/counters_like.svg" width="44" alt="likes">
+                    <figcaption>
+                        <h3 class="counters_digits">873</h3>
+                        <p class="counters_text">Likes</p>
+                    </figcaption>
+                    <hr class="counters_br">
+                </figure>
+                <figure class="counter">
+                    <img class="counters_img" src="img/counters_dish.svg" alt="dish">
+                    <figcaption>
+                        <h3 class="counters_digits">900</h3>
+                        <p class="counters_text">We launched</p>
+                    </figcaption>
+                    <hr class="counters_br">
+                </figure>
+            </div>
+        </section>
+        <section class="r_posts">
+            <div class="wrapper r_posts_wrapper">
+                <div class="r_posts_description">
+                    <h2 class="r_posts_heading">Recent Posts.</h2>
+                    <p class="r_posts_description_text">Investigationes demonstraverunt lectores legere me lius quod ii
+                        legunt
+                        saepius.
+                        Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                </div>
+                <div class="r_posts_block">
+                    <figure class="r_posts_post">
+                        <img class="r_posts_img" src="img/r_posts_legs.png" width="370" height="220" alt="legs">
+                        <div class="r_posts_overlay"></div>
+                        <figcaption class="r_posts_text">
+                            <h3 class="r_posts_post_title">Lorem ipsum dolor sit amet</h3>
+                            <p class="r_posts_post_text">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                                consuetudium.</p>
+                            <a class="r_posts_read_more" href="#">Read more</a>
+                        </figcaption>
+                        <div class="r_posts_date date_left">
+                            <div class="date_number">30</div>
+                            <div class="date_month">Sep.</div>
+                        </div>
+                    </figure>
+                    <figure class="r_posts_post">
+                        <img class="r_posts_img" src="img/r_posts_hands.jpg" width="370" height="217" alt="hands">
+                        <div class="r_posts_overlay"></div>
+                        <figcaption class="r_posts_text">
+                            <h3 class="r_posts_post_title">Lorem ipsum dolor sit amet</h3>
+                            <p class="r_posts_post_text">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                                consuetudium.</p>
+                            <a class="r_posts_read_more" href="#">Read more</a>
+                        </figcaption>
+                        <div class="r_posts_date date_middle">
+                            <div class="date_number">30</div>
+                            <div class="date_month">Sep.</div>
+                        </div>
+                    </figure>
+                    <figure class="r_posts_post">
+                        <img class="r_posts_img" src="img/r_posts_ship.png" width="370" height="217" alt="ship">
+                        <div class="r_posts_overlay"></div>
+                        <figcaption class="r_posts_text">
+                            <h3 class="r_posts_post_title">Lorem ipsum dolor sit amet</h3>
+                            <p class="r_posts_post_text">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                                consuetudium.</p>
+                            <a class="r_posts_read_more" href="#">Read more</a>
+                        </figcaption>
+                        <div class="r_posts_date date_right">
+                            <div class="date_number">30</div>
+                            <div class="date_month">Sep.</div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="r_posts_sliders">
+                    <button class="r_posts_slider slider_left"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                            height="22" viewBox="0 0 22 22">
+                            <path
+                                d="M7.58 10.4298L12.35 5.65978C12.64 5.36978 13.11 5.36978 13.4 5.65978C13.68 5.94978 13.68 6.41978 13.4 6.69978L9.14 10.9598L13.4 15.2098C13.68 15.4998 13.68 15.9598 13.4 16.2498C13.11 16.5398 12.64 16.5398 12.35 16.2498L7.58 11.4798C7.44 11.3298 7.37 11.1498 7.37 10.9598C7.37 10.7698 7.44 10.5798 7.58 10.4298ZM10.99 0.0297852C17.05 0.0297852 21.97 4.93979 21.97 11.0098C21.97 17.0798 17.05 21.9898 10.99 21.9898C4.92 21.9898 0 17.0798 0 11.0098C0 4.93979 4.92 0.0297852 10.99 0.0297852ZM10.99 20.5198C16.23 20.5198 20.5 16.2498 20.5 11.0098C20.5 5.76979 16.23 1.49979 10.99 1.49979C5.74 1.49979 1.47 5.76979 1.47 11.0098C1.47 16.2498 5.74 20.5198 10.99 20.5198Z" />
+                        </svg></button>
+                    <button class="r_posts_slider slider_right"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                            height="22" viewBox="0 0 22 22">
+                            <path
+                                d="M14.42 10.4298L9.64003 5.65978C9.36003 5.36978 8.89003 5.36978 8.60003 5.65978C8.32003 5.94978 8.32003 6.41978 8.60003 6.69978L12.86 10.9598L8.60003 15.2098C8.32003 15.4998 8.32003 15.9598 8.60003 16.2498C8.89003 16.5398 9.36003 16.5398 9.64003 16.2498L14.42 11.4798C14.56 11.3298 14.63 11.1498 14.63 10.9598C14.63 10.7698 14.56 10.5798 14.42 10.4298ZM11.01 0.0297852C4.95003 0.0297852 0.0300293 4.93979 0.0300293 11.0098C0.0300293 17.0798 4.95003 21.9898 11.01 21.9898C17.08 21.9898 22 17.0798 22 11.0098C22 4.93979 17.08 0.0297852 11.01 0.0297852ZM11.01 20.5198C5.77003 20.5198 1.50003 16.2498 1.50003 11.0098C1.50003 5.76979 5.77003 1.49979 11.01 1.49979C16.26 1.49979 20.52 5.76979 20.52 11.0098C20.52 16.2498 16.26 20.5198 11.01 20.5198Z" />
+                        </svg></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners">
+            <div class="wrapper partners_wrapper">
+                <div class="partners_barber partners_transform"><img class="partners_transform"
+                        src="img/partners_barber.svg" width="210" alt="barber"></div>
+                <div class="partners_delicious partners_transform"><img src="img/partners_delicious_p.svg" width="210"
+                        alt="delicious_p">
+                </div>
+                <div class="partners_designers partners_transform"><img src="img/partners_designers.svg" width="210"
+                        alt="designers"></div>
+                <div class="partners_royal partners_transform"><img src="img/partners_royal.svg" width="210"
+                        alt="cafe_royal"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper footer_wrapper">
+            <div class="footer_top">
+                <div class="footer_about_waxom footer_part when_hover">
+                    <div class="footer_logo">
+                        <a href="index.html"><img class="logo_img" src="img/Waxom_logo.png" alt="logo"></a>
+                        <a class="logo_text" href="index.html">Waxom</a>
+                        <p class="footer_text">Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit, sed diam
+                            nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                            nostrud exerci suscipit lobortis claritatem.</p>
+                        <a class="footer_read_more" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="footer_posts footer_part">
+                    <h2 class="footer_heading">Recent Posts</h2>
+                    <div class="footer_post when_hover">
+                        <p class="footer_date">September 08, 2015</p>
+                        <p class="footer_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                        <hr class="footer_line">
+                    </div>
+                    <div class="footer_post when_hover">
+                        <p class="footer_date">September 08, 2015</p>
+                        <p class="footer_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                        <hr class="footer_line">
+                    </div>
+                    <div class="footer_post when_hover">
+                        <p class="footer_date">September 08, 2015</p>
+                        <p class="footer_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </div>
+                </div>
+                <div class="footer_twitter footer_part">
+                    <h2 class="footer_heading">Our Twitter</h2>
+                    <div class="footer_twit when_hover">
+                        <p class="footer_text"> <a class="footer_twitter_link" href="#">@waxom</a> Cum soluta nobis
+                            eleifend
+                            option congue nihil
+                            imperdiet doming
+                        </p>
+                        <p class="footer_date">3 mins ago</p>
+                        <hr>
+
+                    </div>
+                    <div class="footer_twit when_hover">
+                        <p class="footer_text">Mirum est <a class="footer_twitter_link" href="#">#envato</a> notare quam
+                            littera gothica, quam nunc
+                            putamus
+                            parum
+                            anteposuerit litterarum</p>
+                        <p class="footer_date">5 hours ago</p>
+                        <hr class="footer_line">
+                    </div>
+                    <div class="footer_twit when_hover">
+                        <p class="footer_text">Soluta nobis option bit.ly/1Hniso7</p>
+                        <p class="footer_date">20 days ago</p>
+
+                    </div>
+                </div>
+                <div class="footer_dribbble_widget footer_part">
+                    <h2 class="footer_heading">Dribbble Widget</h2>
+                    <div class="footer_dribbble_images">
+                        <img class="drible_widget_img" src="img/dribbble_wiget_phone.png" width="130" alt="phone">
+                        <img class="drible_widget_img" src="img/dribbble_wiget_bag.png" width="130" alt="phone">
+                        <img class="drible_widget_img" src="img/dribbble_wiget_book.png" width="130" alt="phone">
+                        <img class="drible_widget_img" src="img/dribbble_wiget_icons.png" width="130" alt="phone">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="wrapper footer_bottom_wrapper">
+
+                <a class="footer_rights_link" href="#">Copyright © 2015 Waxom</a>
+                <a class="footer_rights_link" href="#">Privacy Policy</a>
+                <a class="footer_rights_link" href="#">FAQ</a>
+                <a class="footer_rights_link" href="#">Support</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
